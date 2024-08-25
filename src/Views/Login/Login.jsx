@@ -9,10 +9,10 @@ export const Login = () => {
     style={{
       background: "radial-gradient(circle at center, #0569cd, #002d5a, #001430)",
     }}>
-      <div className="flex w-96 h-52 m-12">
-        <img src="/public/wallpaperflare.com_wallpaper.jpg" alt="Spartan" style={{aspectRatio: 1/1, contain: "content"}}/>
+      <div className="flex w-full h-[150px] md:h-[300px] m-6 md:m-12 justify-center items-center">
+        <img src="/public/logo.png" alt="Spartan" className="w-[450px] md:w-[800px]" style={{ aspectRatio: "16/9", objectFit: "contain" }} />
       </div>
-      <Card className="w-[550px] z-10 bg-transparent backdrop-blur-lg border-none">
+      <Card className="w-[90%] max-w-[550px] z-10 bg-transparent backdrop-blur-lg border-none">
         <CardContent>
           <form>
             <div className="grid w-full items-center gap-4">
